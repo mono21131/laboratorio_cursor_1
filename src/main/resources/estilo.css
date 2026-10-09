@@ -1,0 +1,77 @@
+.root {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-background-color: linear-gradient(to bottom, #eef4ff, #f7f9fc);
+}
+
+.panel {
+    -fx-background-color: transparent;
+}
+
+.titulo {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #153e75;
+}
+
+.descripcion {
+    -fx-font-size: 14px;
+    -fx-text-fill: #3d4f66;
+}
+
+.etiqueta {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1f3654;
+}
+
+.saludo {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0f5132;
+}
+
+.boton-principal {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 22 10 22;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.boton-principal:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.boton-secundario {
+    -fx-background-color: #e2e8f0;
+    -fx-text-fill: #1e293b;
+    -fx-font-size: 14px;
+    -fx-padding: 10 18 10 18;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.boton-secundario:hover {
+    -fx-background-color: #cbd5e1;
+}
+
+.boton-salir {
+    -fx-background-color: #dc2626;
+    -fx-text-base-color: #000000;
+    -fx-text-fill: #000000;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 22 10 22;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.boton-salir:hover {
+    -fx-background-color: #b91c1c;
+}
+
+.text-field {
+    -fx-pref-width: 280;
+}
